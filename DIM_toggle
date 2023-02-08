@@ -8,3 +8,6 @@ settings put secure reduce_bright_colors_activated 0
 # corresponding to FPS_toggle
 # though you can set the "secure reduce_bright_colors_activated" to 1/0 to toggle DIM on/off
 # on my device, I cannot access the current value of it
+
+# if you wanna make a toggle switch
+# try to use Xposed Edge's "Set variable" and "Condition"
