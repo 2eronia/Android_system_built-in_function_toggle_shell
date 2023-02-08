@@ -1,5 +1,3 @@
-#!/bin/sh
-
 value=$(settings get system gray_scale_on)
 
 if [ $value -eq 0 ]; then
