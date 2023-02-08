@@ -1,0 +1,9 @@
+#!/bin/sh
+
+value=$(settings get secure night_display_activated)
+
+if [ $value -eq 0 ]; then
+  settings put secure night_display_activated 1
+else
+  settings put secure night_display_activated 0
+fi
